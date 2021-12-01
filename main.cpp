@@ -1,5 +1,19 @@
 #include <iostream>
+#include "lib.h"
 
-int main(){
-  return 0;
+using namespace std;
+
+int main() {
+
+    int a;
+
+    cin >> a;
+
+    if (det (a) == true){
+
+        cout << "numero primo" << endl;
+    }else {
+
+        cout << "numero non primo" << endl;
+    }
 }
